@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box; 
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+aside {
+    background-color: rgb(197, 227, 238);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+
+.header {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid lightblue;
+    padding: 10px;
+
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-1"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid lightblue;
+    text-align: center;
+}
+
+[class*="col-2"] {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    float: right;
+    padding: 15px;
+    border: 1px solid lightblue;
+}
+
+.col-1 {width: 25%;}
+.col-2 {width: 75%;}
+
+.items {
+    padding-left: 5px;
+}
+
+.lista{
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.lista:hover {
+    background-color: #0099cc;
+    padding: 6px;
+}
+
+.sin_estilo {
+    list-style: none;
+}
+
+.estilo {
+    letter-spacing: 3px;
+    font-size: xx-large;
+    text-align: none;
+}
+
+h2 {
+    line-height: 0.8
+}
+
+.aliniacion {
+    text-align: right;
+}
+
+.imagen_perfil {
+    display: block;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#fondo {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid lightblue;
+    padding: 10px;
+
+}
